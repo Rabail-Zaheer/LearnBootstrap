@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>VERTICAL ALIGNMENTS IN BOOTSTRAP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- TWO DIV - TAKING WHOLE WIDTH AS A BLOCK ELEMENT -->
+    <div class="container">
+      <div class="p-3 pink">
+        <h2>COL A</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="p-3 green">
+        <h2>COL B</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <!-- TWO DIVs - USING BOOTSTRAP UTILITY CLASSES WE ARE MAKING THEM AS INLINE BLOCK ELEMENT -->
+    <div class="container">
+      <div class="p-3 d-inline-block pink">
+        <h2>COL A</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="p-3 d-inline-block green">
+        <h2>COL B</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <!-- TWO DIVs - USING BOOTSTRAP UTILITY CLASSES WE ARE MAKING THEM AS INLINE BLOCK ELEMENT - ALSO USING BREAKPOINTS HERE-->
+    <div class="container">
+      <div class="p-3 d-lg-inline-block pink">
+        <h2>COL A</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="p-3 d-lg-inline-block green">
+        <h2>COL B</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <!-- USING DISPLAY NONE CLASS IN BOOTSTRAP -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 blue">
+          <h2>COL 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            id.
+          </p>
+        </div>
+        <div class="col-md-3 green">
+          <h2>COL 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            id.
+          </p>
+        </div>
+        <div class="col-md-3 d-none d-sm-block pink">
+          <h2>COL 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            id.
+          </p>
+        </div>
+        <div class="col-md-3 cyan">
+          <h2>COL 4</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            id.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DISPLAYING FLEX AND USING OTHER CLASSES OF BOOTSTRAP WITHOUT USING COL CLASS -->
+
+    <div class="container">
+      <div class="d-flex" style="border: 3px solid peru">
+        <div class="order-2 pink p-3">COLUMN A</div>
+        <div class="order-1 green p-3">COLUMN B</div>
+        <div class="order-2 blue p-3">COLUMN C</div>
+      </div>
+    </div>
+
+    <!-- DISPLAY PRINT UTILITIES -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 blueviolet">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          molestiae?
+        </div>
+        <div class="col-md-3 cyan">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
+          accusantium.
+        </div>
+        <div class="col-md-3 d-print-none green">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          iure.
+        </div>
+        <div class="col-md-3 blue">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+          reprehenderit?
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
