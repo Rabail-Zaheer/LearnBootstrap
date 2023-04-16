@@ -17,5 +17,89 @@
 
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
-  <body></body>
+
+  <!-- FLOAT CLASSES IN BOOTSTRAP  -->
+
+  <body>
+    <div class="container clearfix">
+      <div class="green w-25 float-start">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 float-end">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+
+    <!-- FLOAT CLASSES WITH BREAK POINTS -->
+
+    <div class="container clearfix">
+      <div class="green w-25 float-md-start">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 float-end">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+
+    <!-- CHANGING POSITIONS OF DIV AT DIFFERENT BREAKPOINTS -->
+
+    <div class="container clearfix">
+      <div class="green w-25 float-lg-start float-sm-end">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 float-lg-end float-sm-start">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+
+    <!-- Chaning positions of divs using float -->
+
+    <div class="container clearfix">
+      <div class="green w-25 float-lg-none float-sm-start">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 float-lg-none float-sm-end">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+
+    <!-- HEIGHT PROPERTIES IN BOOTSTRAP -->
+
+    <div class="container clearfix" style="height: 300px">
+      <div class="green w-25 h-75 float-lg-start float-sm-end">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 h-100 float-lg-end float-sm-start">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+
+    <!-- USING VIEWPORT HEIGHT AND WIDTH -->
+    <div class="container clearfix" style="height: 300px">
+      <div class="green vw-100 h-75 float-lg-start float-sm-end">
+        <h2>DIV A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="blue w-25 vh-100 float-lg-end float-sm-start">
+        <h2>DIV B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+  </body>
 </html>
